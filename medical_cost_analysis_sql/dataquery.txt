@@ -1,0 +1,12 @@
+CREATE TABLE insurance_data (
+    age INT NOT NULL,
+    sex VARCHAR(10) NOT NULL,
+    bmi FLOAT NOT NULL,
+    children INT NOT NULL,
+    smoker BOOLEAN NOT NULL,
+    region VARCHAR(50) NOT NULL,
+    charges FLOAT NOT NULL
+);
+
+
+"INSERT INTO insurance_data (age, sex, bmi, children, smoker, region, charges) VALUES (" & A2 & ", '" & B2 & "', " & C2 & ", " & D2 & ", " & E2 & ", '" & F2 & "', " & G2 & ");"
